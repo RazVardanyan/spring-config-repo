@@ -2,8 +2,8 @@ server:
   port: 8050
 
 cloud:
-    gateway:
-      routes:
+  gateway:
+    routes:
       - id: spring-producer-service
         uri: localhost:8081
       - id: spring-consumer-service
